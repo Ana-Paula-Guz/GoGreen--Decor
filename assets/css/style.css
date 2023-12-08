@@ -1,0 +1,39 @@
+/*Google fonts for title*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap');
+
+
+/*Wildcare selector to apply padding and margin to all doc*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Flexbox and gral style for header*/
+header {
+    background-color: rgb(199, 174, 223);
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+/*Style for my H1*/
+h1 {
+    font-family: 'Courgette', sans-serif;
+    color: rgb(26, 83, 26);
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+/*Style for the navigation bar*/
+#nav-bar {
+    list-style-type: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+
+/*Main content*/
