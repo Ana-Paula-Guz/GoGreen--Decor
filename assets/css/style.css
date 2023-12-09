@@ -11,20 +11,21 @@
 
 /*Flexbox and gral style for header*/
 header {
-    background-color: rgb(199, 174, 223);
+    background-color: #FFFAF0;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
+
 }
 
 /*Style for my H1*/
 h1 {
     font-family: 'Courgette', sans-serif;
-    color: rgb(26, 83, 26);
+    color: #228B22;
     letter-spacing: 1px;
-    font-size: larger;
+    font-size: x-large;
 }
 
 header>a {
@@ -40,8 +41,26 @@ header>a {
     font-weight: bold;
 }
 
+#nav-bar>li {
+    margin-bottom: 5px;
+}
+
 li>a {
+    color: #161515;
     text-decoration: none;
 }
 
+/*Shows the user in which page are on*/
+.active:hover {
+    background: rgb(26, 83, 26);
+}
+
 /*Main content*/
+main {
+    background-color: green;
+}
+
+/*Footer*/
+footer {
+    background-color: blue;
+}
