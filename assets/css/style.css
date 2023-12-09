@@ -1,4 +1,4 @@
-/*Google fonts for title*/
+/*Google fonts for title and doc*/
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap');
 
 
@@ -62,5 +62,10 @@ main {
 
 /*Footer*/
 footer {
+    display: flex;
     background-color: blue;
+}
+
+.SocialMedia-icons {
+    align-self: flex-end;
 }
