@@ -52,7 +52,7 @@ li>a {
 
 /*Shows the user in which page are on*/
 .active:hover {
-    background: rgb(26, 83, 26);
+    background: #B8860B;
 }
 
 /*Main content*/
