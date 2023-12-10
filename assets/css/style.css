@@ -25,7 +25,8 @@ h1 {
     font-family: 'Courgette', sans-serif;
     color: #228B22;
     letter-spacing: 1px;
-    font-size: x-large;
+    font-size:30px;
+    text-align: center;
 }
 
 header>a {
@@ -48,16 +49,25 @@ header>a {
 li>a {
     color: #161515;
     text-decoration: none;
+
 }
 
-/*Shows the user in which page are on*/
+/*Shows the user in which page/section are on*/
 .active:hover {
-    background: #B8860B;
+    background: #228B22;
 }
 
 /*Main content*/
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/tinywow_hero\ image_42707596\ \(1\).webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 main {
-    background-color: green;
+    font-size: 15px;
 }
 
 /*Footer*/
@@ -68,4 +78,21 @@ footer {
 
 .SocialMedia-icons {
     align-self: flex-end;
+}
+
+/*Media query for screens of 768px and up*/
+@media screen (min-width: 768px) {
+    header>#nav-bar>li {
+        display: inline-block;
+    }
+
+    header>h1 {
+        font-size: xxx-large;
+    }
+}
+
+@media screen (min-width: 992px) {
+    #nav-bar li a:hover {
+        background: #228B22;
+    }
 }
