@@ -68,7 +68,7 @@ li>a {
 
 main {
     font-size: 15px;
-}
+}  
 
 section>h2 {
     font-family: 'Courgette', sans-serif;
@@ -103,7 +103,7 @@ footer {
     align-self: flex-end;
 }
 
-
+/*Making the header responsive*/
 /*Media query for screens of 768px and up*/
 @media screen and (min-width: 768px) {
     header {
