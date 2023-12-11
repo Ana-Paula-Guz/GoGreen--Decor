@@ -54,7 +54,7 @@ li>a {
 
 /*Shows the user in which page/section are on*/
 .active:hover {
-    background: #228B22;
+    background: #FF7F50;
 }
 
 /*Main content*/
@@ -106,10 +106,17 @@ footer {
 
 /*Media query for screens of 768px and up*/
 @media screen and (min-width: 768px) {
-    nav {
+    header {
         display: block;
-        
-        
+
+
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10px;
     }
 
     header>h1 {
@@ -123,6 +130,4 @@ footer {
 }
 
 /*Media query for screens of 1200px and up*/
-@media screen (min-width: 1200px) {
-
-}
+@media screen (min-width: 1200px) {}
