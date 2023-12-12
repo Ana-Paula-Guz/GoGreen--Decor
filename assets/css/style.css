@@ -64,11 +64,12 @@ li>a {
     background: url("../images/hero-image1.webp");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 main {
     font-size: 15px;
-}  
+}
 
 section>h2 {
     font-family: 'Courgette', sans-serif;
