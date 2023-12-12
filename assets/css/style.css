@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 /*Flexbox and gral style for header*/
@@ -61,7 +62,7 @@ li>a {
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image1.webp");
+    background-image: url("../images/hero-image1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -82,6 +83,16 @@ section>h2 {
 /*Section About*/
 #about {
     background-color: #FF7F50;
+}
+
+#soy-candels {
+    background-image: url("../images/soy-candels.jpg");
+    height: 180px;
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /*Section Services*/
@@ -128,6 +139,11 @@ footer {
 
 /*Media query for screens of 992px and up*/
 @media screen and (min-width: 992px) {
+    #nav-bar a:hover {
+        border-bottom: 1px solid #FF7F50;
+    }
+    
+    
     #hero {
         height: 800px;
     }
