@@ -156,17 +156,21 @@ footer {
         padding-top: 15px;
     }
 
-    /*Section About*/
-    #about #soy-candels {
-        display: flex;
+    #hero {
+        height: 600px;
     }
 
-    #about {}
-
+    /*Section About*/
     #soy-candels {
-        width: 500px;
-        height: 500px;
-        justify-content: flex-end;
+        width: 600px;
+        height: 380px;
+        margin-left: 80px;
+    }
+
+    #lampshades {
+        width: 600px;
+        height: 380px;
+        margin-left: 80px;
     }
 }
 
