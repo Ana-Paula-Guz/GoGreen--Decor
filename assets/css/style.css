@@ -92,8 +92,23 @@ section>h2 {
     background-position: center center;
     height: 180px;
     width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #FF7F50;
 }
 
+
+#lampshades {
+    background-image: url("../images/lampshades.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 180px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #FF7F50;
+}
 
 /*For landscape layout
     max-width: 300px;
