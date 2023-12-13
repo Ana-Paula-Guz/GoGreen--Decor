@@ -87,13 +87,18 @@ section>h2 {
 
 #soy-candels {
     background-image: url("../images/soy-candels.jpg");
-    height: 180px;
-    width: 100%;
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 180px;
+    width: 100%;
 }
+
+
+/*For landscape layout
+    max-width: 300px;
+    min-height: 300px;*/
+
 
 /*Section Services*/
 #services {
@@ -135,15 +140,29 @@ footer {
         font-size: 35px;
         padding-top: 15px;
     }
+
+    /*Section About*/
+    #about #soy-candels {
+        display: flex;
+    }
+
+    #about {}
+
+    #soy-candels {
+        width: 500px;
+        height: 500px;
+        justify-content: flex-end;
+    }
 }
+
 
 /*Media query for screens of 992px and up*/
 @media screen and (min-width: 992px) {
     #nav-bar a:hover {
         border-bottom: 1px solid #FF7F50;
     }
-    
-    
+
+
     #hero {
         height: 800px;
     }
