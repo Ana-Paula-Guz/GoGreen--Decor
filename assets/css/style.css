@@ -162,19 +162,17 @@ footer {
 
     /*Section About*/
     #soy-candels {
-        width: 600px;
+        width: 100%;
         height: 380px;
-        margin-left: 80px;
     }
 
     #lampshades {
-        width: 600px;
+        width: 100%;
         height: 380px;
-        margin-left: 80px;
     }
 }
 
-
+/*Ver esto no funciona*/
 /*Media query for screens of 992px and up*/
 @media screen and (min-width: 992px) {
     #nav-bar a:hover {
@@ -185,6 +183,19 @@ footer {
     #hero {
         height: 800px;
     }
+
+    #soy-candels {
+        height: 400px;
+        width: 750px;
+    }
+
+    #lampshades {
+        height: 400px;
+        width: 750px;
+    }
+
+    
+
 }
 
 
