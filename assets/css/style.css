@@ -205,4 +205,12 @@ footer {
         height: 1200px;
         width: 100%;
     }
+
+    #flexbox {
+    display: flex;
+    }
+
+    #soy-candels #lampshades {
+        align-self: baseline;
+    }
 }
