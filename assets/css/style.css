@@ -161,6 +161,17 @@ footer {
     }
 
     /*Section About*/
+    #about>h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    #about>p {
+        font-size: 18px;
+        margin: 16px;
+        text-align: justify;
+    }
+
     #soy-candels {
         width: 100%;
         height: 380px;
@@ -194,7 +205,14 @@ footer {
         width: 750px;
     }
 
-    
+    #flexbox {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #soy-candels #lampshades {
+        align-self: baseline;
+    }
 
 }
 
@@ -207,10 +225,19 @@ footer {
     }
 
     #flexbox {
-    display: flex;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     #soy-candels #lampshades {
         align-self: baseline;
+    }
+
+    #soy-candels {
+        height: 500px;
+    }
+
+    #lampshades {
+        height: 500px;
     }
 }
