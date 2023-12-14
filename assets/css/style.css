@@ -58,7 +58,7 @@ li>a {
     background: #FF7F50;
 }
 
-/*Main content*/
+/*Style for Main content*/
 #hero {
     height: 500px;
     width: 100%;
@@ -66,6 +66,12 @@ li>a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+/*Style for About section*/
+
+#about {
+    background-color: #FF7F50;
 }
 
 main {
@@ -78,11 +84,6 @@ section>h2 {
     letter-spacing: 1px;
     font-size: 20px;
     text-align: center;
-}
-
-/*Section About*/
-#about {
-    background-color: #FF7F50;
 }
 
 #soy-candels {
@@ -125,14 +126,29 @@ section>h2 {
     background-color: #FF7F50;
 }
 
-/*Footer*/
+/*Section Footer*/
 footer {
-    display: flex;
-    background-color: #DAA520;
+    background-color: #FFFAF0;
+    padding: 0 1rem;
+    height: 60px;
 }
 
-.SocialMedia-icons {
-    align-self: flex-end;
+#flexbox-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+#flexbox-footer > p {
+    font-size: 14px;
+}
+
+#flexbox-footer > h3 {
+    font-size: 16px;
 }
 
 /*Making the header responsive*/
@@ -205,7 +221,7 @@ footer {
         width: 750px;
     }
 
-    #flexbox {
+    #flexbox-about {
         display: flex;
         justify-content: space-evenly;
     }
@@ -224,7 +240,7 @@ footer {
         width: 100%;
     }
 
-    #flexbox {
+    #flexbox-about {
         display: flex;
         justify-content: space-evenly;
     }
