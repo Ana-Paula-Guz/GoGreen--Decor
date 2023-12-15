@@ -68,6 +68,10 @@ li>a {
     background-position: center center;
 }
 
+#text-hero-parent {
+    position: relative;
+}
+
 #text-hero > p {
     font-family: 'Courgette', sans-serif;
     text-align: center;
@@ -75,6 +79,7 @@ li>a {
     color: #ffffff;
     top: 20%;
     background-color: #FF7F50;
+    font-size: 18px;
    }
 
 /*Style for About section*/
@@ -186,6 +191,12 @@ ul>li {
         height: 600px;
     }
 
+    #text-hero>p {
+        font-size: 22px;
+        text-align: center;
+        left: 170px;    
+    }
+
     /*Section About*/
     #about>h2 {
         font-size: 30px;
@@ -234,6 +245,11 @@ ul>li {
         height: 800px;
     }
 
+    #text-hero>p {
+        font-size: 28px;
+        left: 240px;
+    }
+
     #soy-candels {
         height: 400px;
         width: 750px;
@@ -261,6 +277,10 @@ ul>li {
     #hero {
         height: 1200px;
         width: 100%;
+    }
+
+    #text-hero>p {
+        left: 700px;
     }
 
     #flexbox-about {
