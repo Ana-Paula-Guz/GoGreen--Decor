@@ -138,6 +138,11 @@ section>h2 {
     background-color: #D7C9AA;
 }
 
+img {
+   width: 100%;
+   height: auto;
+}
+
 /*Section Contact*/
 #contact {
     background-color: #FF7F50;
