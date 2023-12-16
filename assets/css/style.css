@@ -12,7 +12,7 @@
 
 /*Flexbox and gral style for header*/
 header {
-    background-color: #F2FBE0;
+    background-color: #FFFAF0;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -26,7 +26,7 @@ header {
 /*Style for my H1*/
 h1 {
     font-family: 'Courgette', sans-serif;
-    color: #697A21;
+    color: #6CAE75;
     letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
@@ -57,7 +57,8 @@ li>a {
 
 /*Shows the user in which page/section are on*/
 .active:hover {
-    background: #FF7F50;
+    background: #F5A65B;
+    padding: 5px;
 }
 
 /*Style for Main content*/
@@ -78,9 +79,9 @@ li>a {
     font-family: 'Courgette', sans-serif;
     text-align: center;
     position: absolute;
-    color: #ffffff;
+    color: white;
     top: 20%;
-    background-color: #FF7F50;
+    background-color: #F5A65B;
     font-size: 18px;
    }
 
