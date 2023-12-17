@@ -157,11 +157,15 @@ img {
 }
 
 /*Section Contact*/
-#contact {
-    background-color: #FF7F50;
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
-
+.contact-form > h2 {
+    text-align: center;
+}
 /*Section Footer*/
 footer {
     background-color: #FFFAF0;
