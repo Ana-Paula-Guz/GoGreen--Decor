@@ -270,27 +270,20 @@ ul>li {
 
     /*Footer section*/
     #flexbox-footer>p {
-        font-size: 16px;
-    }
-
-    #flexbox-footer>h3 {
         font-size: 18px;
     }
 
-    a>i {
+    #flexbox-footer>h3 {
         font-size: 20px;
+    }
+
+    a>i {
+        font-size: 25px;
     }
 }
 
-
-/*Ver esto no funciona*/
 /*Media query for screens of 992px and up*/
 @media screen and (min-width: 992px) {
-    #nav-bar a:hover {
-        border-bottom: 1px solid #FF7F50;
-    }
-
-
     #hero {
         height: 800px;
     }
@@ -300,60 +293,68 @@ ul>li {
         left: 240px;
     }
 
-    #soy-candels {
-        height: 400px;
-        width: 750px;
-    }
-
-    #lampshades {
-        height: 400px;
-        width: 750px;
-    }
-
-    #flexbox-about {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    #soy-candels #lampshades {
-        align-self: baseline;
-    }
-
     #services-images>img {
         max-width: 50%;
-        padding: 80px;
+        padding: 40px;
+    }
+
+    /*Contact section*/
+    .contact-form {
+        margin: 80px;
+    }
+
+    .contact-form>label {
+        font-size: 20px;
+    }
+    
+    .contact-form>input {
+        font-size: 19px;
+    }
+
+    /*Footer section*/
+    #flexbox-footer>p {
+        font-size: 20px;
+    }
+    
+    #flexbox-footer>h3 {
+        font-size: 22px;
+    }
+    
+    a>i {
+        font-size: 28px;
     }
 }
 
-
 /*Media query for screens of 1200px and up*/
+/*Header section*/
 @media screen and (min-width: 1200px) {
+    header {
+        display: block;
+        height: 110px;
+    }
+    
+    #nav-bar {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        }
+    
     #hero {
-        height: 1200px;
-        width: 100%;
+       height: 800;
+       width: 67%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
     }
 
     #text-hero>p {
-        left: 700px;
+        left: 680px;
     }
 
-    #flexbox-about {
-        display: flex;
-        justify-content: space-evenly;
-    }
 
-    #soy-candels #lampshades {
-        align-self: baseline;
-    }
 
-    #soy-candels {
-        height: 500px;
-    }
 
-    #lampshades {
-        height: 500px;
-    }
-
+    
     #services-images>img {
         max-width: 50%;
         padding: 0px 300px;
