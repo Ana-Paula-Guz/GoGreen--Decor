@@ -49,7 +49,8 @@
       </nav>
     </header>
     <main>
-      <section id="text-hero-parent" <!--Hero image-->
+      <!--Hero image-->
+      <section id="text-hero-parent">
         <div id="hero">
           <!--Hero image text-->
           <div id="text-hero">
@@ -61,9 +62,9 @@
       <section id="about">
         <h2>Who we are?</h2>
         <p>
-          <span><i class="fa-solid fa-leaf"></i>GoGreen-Decor</span> is an Event
-          decoration company inspired by nature. Our philosophy is based on
-          <span>Eco-design</span> meaning all of our goods and services are
+          <strong><i class="fa-solid fa-leaf"></i>GoGreen-Decor</strong> is an
+          Event decoration company inspired by nature. Our philosophy is based
+          on Eco-design meaning all of our goods and services are
           environmentally responsible. Our dedicated team will make your
           objectives our own, creating unique experiences exceeding all
           expectation and the same time respecting the environment.
@@ -78,11 +79,15 @@
           reduce the environmental impact of products. That is why we choose
           recyclable or biodegradable, non-toxic, easily reproduce, renewable
           and low waste products making your event a unique experience feeling
-          close to nature.
+          close to nature. <i class="fa-solid fa-leaf"></i>
         </p>
-     <div id="flexbox-about">
-        <img src="./assets/images/soy-candels.jpg" alt="Making soy candles">
-     </div>
+        <div id="flexbox-about">
+          <img
+            src="./assets/images/soy-candels.jpg"
+            alt="Making soy candles"
+            class="center-img"
+          />
+        </div>
       </section>
       <!--Services section-->
       <section id="services">
@@ -95,15 +100,15 @@
           experiences with creativity, innovation and expertise.
         </p>
         <ul id="services-list">
-            <li>Event design and branding</li>
-            <li>Lighting</li>
-            <li>Marquees / Event structures</li>
-            <li>Ornamental tables and chair coverings</li>
-            <li>Candelabras</li>
-            <li>Majestic table centrepieces</li>
-            <li>Special lighting effects</li>
-            <li>Staging</li>
-            <li>Food and Beverage management (optional)</li>
+          <li>- Event design and branding</li>
+          <li>- Lighting</li>
+          <li>- Marquees / Event structures</li>
+          <li>- Ornamental tables and chair coverings</li>
+          <li>- Candelabras</li>
+          <li>- Majestic table centrepieces</li>
+          <li>- Special lighting effects</li>
+          <li>- Staging</li>
+          <li>- Food and Beverage management (optional)</li>
         </ul>
         <div id="services-images">
           <img
@@ -119,38 +124,42 @@
       <!--Contact section-->
       <section id="contact">
         <form action="your-inquiry.html" class="contact-form">
-            <h2>Make an inquiry</h2>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="phone">Phone No:</label>
-            <input type="text" id="phone" name="phone" required>
-            <br>
-            <label for="location">Event Location:</label>
-            <input type="text" id="location" name="location" required>
-            <br>
-            <label for="date">Event Date:</label>
-            <input type="date" id="date" name="date" required>
-            <br>
-            <label for="event-type">Event Type:</label>
-            <select name="event-type" id="event-type">
-                <option value="wedding">Wedding</option>
-                <option value="corporate">Corporate</option>
-                <option value="wedding">Other</option>
-            </select>
-            <br>
-            <label for="details">Give us more details:</label>
-            <textarea name="details" id="details" cols="30" rows="10" placeholder="Type here"></textarea>
-            <br>
-            <input type="submit" value="Send">
-          
-
+          <h2>Make an inquiry</h2>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="phone">Phone No:</label>
+          <input type="text" id="phone" name="phone" required />
+          <br />
+          <label for="location">Event Location:</label>
+          <input type="text" id="location" name="location" required />
+          <br />
+          <label for="date">Event Date:</label>
+          <input type="date" id="date" name="date" required />
+          <br />
+          <label for="event-type">Event Type:</label>
+          <select name="event-type" id="event-type">
+            <option value="wedding">Wedding</option>
+            <option value="corporate">Corporate</option>
+            <option value="wedding">Other</option>
+          </select>
+          <br />
+          <label for="details">Give us more details:</label>
+          <textarea
+            name="details"
+            id="details"
+            cols="30"
+            rows="10"
+            placeholder="Type here"
+          ></textarea>
+          <br />
+          <input type="submit" value="Send" />
         </form>
       </section>
     </main>
