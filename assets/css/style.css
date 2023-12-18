@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-/*Style for header*/
+/*Header section*/
 header {
     background-color: #FFFAF0;
     padding: 0 1rem;
@@ -27,7 +27,6 @@ header>a {
     text-decoration: none;
 }
 
-/*Style for H1*/
 h1 {
     font-family: 'Courgette', sans-serif;
     color: #6CAE75;
@@ -36,7 +35,6 @@ h1 {
     text-align: center;
 }
 
-/*Style for the navigation bar*/
 #nav-bar {
     list-style-type: none;
     letter-spacing: 1px;
@@ -60,7 +58,7 @@ li>a {
     padding: 5px;
 }
 
-/*Style for Main content*/
+/*Main content*/
 #hero {
     height: 500px;
     width: 100%;
@@ -84,7 +82,7 @@ li>a {
     font-size: 18px;
 }
 
-/*Style for About section*/
+/*About section*/
 #about {
     background-color: #FFFFFF;
 }
@@ -114,7 +112,7 @@ img {
     padding: 5px 10px;
 }
 
-/*Section Services*/
+/*Services section*/
 #services {
     background-color: #D7C9AA;
 }
@@ -134,8 +132,17 @@ img {
 
 .contact-form>h2 {
     text-align: center;
+    font-family: 'Courgette', sans-serif;
+    color: #0B7A75;
+    letter-spacing: 1px;
     font-size: 20px;
+    padding-top: 5px;
 }
+
+.contact-form>label {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /*Footer section*/
 footer {
@@ -259,79 +266,79 @@ ul>li {
 }
 
 
-    /*Ver esto no funciona*/
-    /*Media query for screens of 992px and up*/
-    @media screen and (min-width: 992px) {
-        #nav-bar a:hover {
-            border-bottom: 1px solid #FF7F50;
-        }
-
-
-        #hero {
-            height: 800px;
-        }
-
-        #text-hero>p {
-            font-size: 28px;
-            left: 240px;
-        }
-
-        #soy-candels {
-            height: 400px;
-            width: 750px;
-        }
-
-        #lampshades {
-            height: 400px;
-            width: 750px;
-        }
-
-        #flexbox-about {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        #soy-candels #lampshades {
-            align-self: baseline;
-        }
-
-        #services-images>img {
-            max-width: 50%;
-            padding: 80px;
-        }
+/*Ver esto no funciona*/
+/*Media query for screens of 992px and up*/
+@media screen and (min-width: 992px) {
+    #nav-bar a:hover {
+        border-bottom: 1px solid #FF7F50;
     }
 
 
-    /*Media query for screens of 1200px and up*/
-    @media screen and (min-width: 1200px) {
-        #hero {
-            height: 1200px;
-            width: 100%;
-        }
-
-        #text-hero>p {
-            left: 700px;
-        }
-
-        #flexbox-about {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        #soy-candels #lampshades {
-            align-self: baseline;
-        }
-
-        #soy-candels {
-            height: 500px;
-        }
-
-        #lampshades {
-            height: 500px;
-        }
-
-        #services-images>img {
-            max-width: 50%;
-            padding: 0px 300px;
-        }
+    #hero {
+        height: 800px;
     }
+
+    #text-hero>p {
+        font-size: 28px;
+        left: 240px;
+    }
+
+    #soy-candels {
+        height: 400px;
+        width: 750px;
+    }
+
+    #lampshades {
+        height: 400px;
+        width: 750px;
+    }
+
+    #flexbox-about {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #soy-candels #lampshades {
+        align-self: baseline;
+    }
+
+    #services-images>img {
+        max-width: 50%;
+        padding: 80px;
+    }
+}
+
+
+/*Media query for screens of 1200px and up*/
+@media screen and (min-width: 1200px) {
+    #hero {
+        height: 1200px;
+        width: 100%;
+    }
+
+    #text-hero>p {
+        left: 700px;
+    }
+
+    #flexbox-about {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #soy-candels #lampshades {
+        align-self: baseline;
+    }
+
+    #soy-candels {
+        height: 500px;
+    }
+
+    #lampshades {
+        height: 500px;
+    }
+
+    #services-images>img {
+        max-width: 50%;
+        padding: 0px 300px;
+    }
+}
