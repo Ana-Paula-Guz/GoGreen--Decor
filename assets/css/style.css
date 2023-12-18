@@ -225,32 +225,50 @@ ul>li {
     }
 
     /*Section Services*/
-     #services>h2 {
+    #services>h2 {
         font-size: 30px;
         padding-top: 20px;
     }
-    
-     #services>p {
+
+    #services>p {
         font-size: 20px;
         margin: 16px;
         text-align: justify;
     }
-    
+
     #services-list>li {
         font-size: 20px;
         text-align: center;
-     }
-    
+    }
+
     #services-images {
         display: flex;
     }
-    
+
     #services-images>img {
         max-width: 50%;
         padding: 25px 15px;
     }
 
-     /*Footer section*/
+    /*Contact section*/
+    .contact-form {
+        margin: 40px;
+    }
+
+    .contact-form>h2 {
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .contact-form>label {
+        font-size: 18px;
+    }
+
+    .contact-form>input {
+        font-size: 18px;
+    }
+
+    /*Footer section*/
     #flexbox-footer>p {
         font-size: 16px;
     }
