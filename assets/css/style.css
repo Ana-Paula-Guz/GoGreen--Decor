@@ -350,12 +350,27 @@ ul>li {
         left: 680px;
     }
 
+    #about {
+         display: flex;
+         justify-content: center;
+         padding: 50px;
+    }
 
+    #about > div {
+        max-width: 50%;
+    }
 
+    #about > #about-text {
+        padding-top: 45px;
+        font-size: 18px;
+    }
 
+    #about-text > h2 {
+        text-align: center;
+    }
 
     #services-images>img {
-        max-width: 50%;
+        max-width: 40%;
         padding: 0px 300px;
     }
 }
