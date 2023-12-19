@@ -35,6 +35,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Courgette', sans-serif;
+    text-align: center;
+}
+
 #nav-bar {
     list-style-type: none;
     letter-spacing: 1px;
@@ -113,7 +118,7 @@ img {
 
 /*Services section*/
 #services {
-    background-color: #606C38;
+    background-color: #C1CC99;
 }
 
 #services-list>li {
@@ -199,12 +204,16 @@ ul>li {
     }
 
     /*About section*/
-    #about>h2 {
+    #about {
+    height: 900px;
+    }
+
+    #about-text >h2 {
         font-size: 30px;
         padding-top: 10px;
     }
 
-    #about>p {
+    #about-text >p {
         font-size: 20px;
         margin: 16px;
         text-align: justify;
@@ -350,23 +359,34 @@ ul>li {
         left: 680px;
     }
 
+    /*About section*/
     #about {
-         display: flex;
-         justify-content: center;
-         padding: 50px;
+        display: flex;
+        height: 700px;
+        justify-content: center;
+        padding: 50px;
     }
 
-    #about > div {
+    #about>div {
         max-width: 50%;
     }
 
-    #about > #about-text {
+    #about>#about-text {
         padding-top: 45px;
         font-size: 18px;
     }
 
-    #about-text > h2 {
+    #about-text>h2 {
         text-align: center;
+    }
+
+    .center-img {
+       padding-top: 75px;
+    }
+
+    /*Services section*/
+    #services {
+    height: 800px;
     }
 
     #services-images>img {
