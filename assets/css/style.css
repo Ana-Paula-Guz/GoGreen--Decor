@@ -123,10 +123,10 @@ img {
 
 #services-list>li {
     padding: 2px;
-    text-align: center;    
+    text-align: center;
 }
 
-li > i {
+li>i {
     font-size: 10px;
 }
 
@@ -235,12 +235,12 @@ ul>li {
     }
 
     /*Section Services*/
-    #container > #services-text >h2 {
+    #container>#services-text>h2 {
         font-size: 30px;
         padding-top: 20px;
     }
 
-    #services-text >p {
+    #services-text>p {
         font-size: 20px;
         margin: 16px;
         text-align: justify;
@@ -307,6 +307,7 @@ ul>li {
         left: 240px;
     }
 
+    /*Services section*/
     #services-images>img {
         max-width: 50%;
         padding: 40px;
@@ -392,7 +393,7 @@ ul>li {
 
     /*Services section*/
     #services {
-        height: 1100px; 
+        height: 1200px;
     }
 
     #container {
@@ -401,13 +402,12 @@ ul>li {
         padding-top: 60px;
     }
 
-    #container > div {
+    #container>div {
         max-width: 50%;
         font-size: 18px;
-       
     }
 
-    #container > #services-text > h2 {
+    #container>#services-text>h2 {
         font-size: 30px;
     }
 
@@ -415,7 +415,7 @@ ul>li {
         padding-top: 50px;
     }
 
-    #services-list > li {
+    #services-list>li {
         padding: 8px;
     }
 
@@ -428,20 +428,23 @@ ul>li {
         justify-content: center;
     }
 
-    #services-images > img {
-        height: 650px;
-        width: 30%;
+    #services-images>img {
+        max-width: 30%;
         padding: 30px 60px;
     }
 
-  
- 
-        
+    /*Contact section*/
+    .contact-form {
+        margin: 40px 400px;
+    }
 
-   
-     
-    
-        
-        
-       
+
+
+
+
+
+
+
+
+
 }
