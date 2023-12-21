@@ -122,6 +122,9 @@ I have used the following to ensure the website is as accessible friendly as pos
 * Alt text to all images.
 
 ## Testing
+### Manual Testing
+### Validator testing
+
 
 ## Deployment & Local Development
 
