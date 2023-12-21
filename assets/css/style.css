@@ -129,7 +129,7 @@ img {
 li>i {
     font-size: 10px;
 }
-
+ 
 /*Contact section*/
 .contact-form {
     display: flex;
@@ -207,10 +207,6 @@ ul>li {
     }
 
     /*About section*/
-    #about {
-        height: 900px;
-    }
-
     #about-text>h2 {
         font-size: 30px;
         padding-top: 10px;
@@ -256,7 +252,7 @@ ul>li {
     }
 
     #services-images {
-        display: flex;
+        display: flex;   
     }
 
     #services-images>img {
@@ -308,6 +304,11 @@ ul>li {
     }
 
     /*Services section*/
+    #services-images {
+        max-width: 768px;
+        margin: auto;
+    }
+
     #services-images>img {
         max-width: 50%;
         padding: 40px;
@@ -368,8 +369,7 @@ ul>li {
 
     /*About section*/
     #about {
-        display: flex;
-        height: 700px;
+        display: flex;    
         justify-content: center;
         padding: 50px;
     }
@@ -392,10 +392,6 @@ ul>li {
     }
 
     /*Services section*/
-    #services {
-        height: 1200px;
-    }
-
     #container {
         display: flex;
         justify-content: center;
@@ -426,11 +422,8 @@ ul>li {
     #services-images {
         display: flex;
         justify-content: center;
-    }
-
-    #services-images>img {
-        max-width: 30%;
-        padding: 30px 60px;
+        max-width: 768px;
+        margin: auto;
     }
 
     /*Contact section*/
