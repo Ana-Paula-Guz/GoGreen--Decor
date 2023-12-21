@@ -134,7 +134,10 @@ li>i {
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 80px;
+    max-width: 768px;
+    margin: auto;
+    padding: 36px 0;
 }
 
 .contact-form>h2 {
@@ -261,10 +264,6 @@ ul>li {
     }
 
     /*Contact section*/
-    .contact-form {
-        margin: 40px;
-    }
-
     .contact-form>h2 {
         font-size: 30px;
         padding-top: 0;
@@ -315,10 +314,6 @@ ul>li {
     }
 
     /*Contact section*/
-    .contact-form {
-        margin: 80px;
-    }
-
     .contact-form>label {
         font-size: 20px;
     }
@@ -426,10 +421,6 @@ ul>li {
         margin: auto;
     }
 
-    /*Contact section*/
-    .contact-form {
-        margin: 40px 400px;
-    }
 
 
 
